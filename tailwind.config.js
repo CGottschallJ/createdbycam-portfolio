@@ -9,6 +9,33 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+  		keyframes: {
+  			float: {
+  				'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+  				'50%': { transform: 'translateY(-20px) rotate(5deg)' },
+  			},
+  			'float-delayed': {
+  				'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+  				'50%': { transform: 'translateY(-30px) rotate(-5deg)' },
+  			},
+  			'float-slow': {
+  				'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+  				'50%': { transform: 'translateY(-15px) rotate(3deg)' },
+  			},
+  			'gradient-x': {
+  				'0%, 100%': { 'background-position': '0% 50%' },
+  				'50%': { 'background-position': '100% 50%' },
+  			},
+  		},
+  		animation: {
+  			float: 'float 6s ease-in-out infinite',
+  			'float-delayed': 'float-delayed 8s ease-in-out infinite',
+  			'float-slow': 'float-slow 10s ease-in-out infinite',
+  			'gradient-x': 'gradient-x 3s ease infinite',
+  		},
+  		backgroundSize: {
+  			'200%': '200%',
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
