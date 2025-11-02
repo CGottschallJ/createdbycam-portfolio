@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "List App",
+    "url": "https://listapp.createdbycam.com",
+    "description": "A full-stack task management application",
+    "frontendRepository": "https://github.com/CGottschallJ/todo-app-frontend",
+    "backendRepository": "https://github.com/cgottschallj/todo-app-backend",
+    "technologies": [
+      "AWS Route 53",
+      "Express",
+      "Railway",
+      "React",
+      "Redux Toolkit",
+      "RTK Query",
+      "Shadcn",
+      "Supabase",
+      "Tailwind",
+      "TypeScript",
+      "Vercel"
+    ]
+  }
+]

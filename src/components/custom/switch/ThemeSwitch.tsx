@@ -4,7 +4,6 @@ import { useTheme } from '@/hooks/useTheme';
 
 export function ThemeSwitch() {
   const { theme, toggleTheme } = useTheme();
-  console.log(theme);
 
   return (
     <label className="relative inline-flex items-center cursor-pointer gap-2">

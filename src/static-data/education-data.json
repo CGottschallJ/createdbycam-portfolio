@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "title": "B.A. Communication Studies",
+    "institution": "Wayne State University",
+    "location": "Detroit, MI",
+    "period": "2012 - 2016",
+    "type": "degree"
+  },
+  {
+    "id": "2",
+    "title": "Certificate of Software Development",
+    "institution": "Austin Coding Academy",
+    "location": "Austin, TX",
+    "period": "April 2018",
+    "type": "certificate"
+  },
+  {
+    "id": "3",
+    "title": "Introduction to Computer Science and Python",
+    "institution": "MITX",
+    "location": "Online",
+    "period": "February 2024",
+    "type": "certificate",
+    "details": ""
+  }
+]

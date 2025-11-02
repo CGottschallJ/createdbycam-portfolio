@@ -1,0 +1,117 @@
+[
+  {
+    "id": "1",
+    "title": "Lead Software Engineer",
+    "company": "Veo Health",
+    "location": "Atlanta, GA",
+    "period": "2024 - Present",
+    "type": "work",
+    "description": [
+      "As companies first employed Engineer, worked with business stakeholders directly to deliver an alpha product to market.",
+      "Managed additional part-time Engineers by coordinating product road map with business needs to help deliver key product features.",
+      "Represented product in high level discussions with C-suite employees while working to put the best product forward.",
+      "Used Shadcn, Tailwind, React, Redux, Node, Express, and other libraries to completely build out a member onboarding process and dashboard.",
+      "Integrated external APIs such as an EMR, Stripe, CustomerIO, and Quest to help facilitate the member journey."
+    ],
+    "technologies": [
+      "React",
+      "Redux",
+      "Node",
+      "Express",
+      "Shadcn",
+      "Tailwind",
+      "Stripe",
+      "CustomerIO"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Senior Front-End Engineer",
+    "company": "Loyal Health",
+    "location": "Atlanta, GA",
+    "period": "2024",
+    "type": "work",
+    "isPromotion": true,
+    "description": [
+      "Spearheaded the integration of all company offerings into a unified 'portal' by leveraging Webpack federated modules, collaborating closely with team members to ensure seamless functionality and user experience.",
+      "Demonstrated proficiency in React, Redux, Redux Toolkit, TypeScript, Webpack, Babel, and Sass by actively contributing to repositories on a daily basis, enhancing project efficiency and maintainability.",
+      "Played a key role in expanding and maintaining the company's component library, implementing new features and components to enhance usability and consistency across the organization.",
+      "Facilitated effective communication and knowledge sharing across multiple teams by crafting comprehensive company documentation, ensuring alignment and understanding among stakeholders.",
+      "Successfully integrated TypeScript into multiple repositories, improving codebase robustness and maintainability.",
+      "Led various agile ceremonies, including daily stand-ups, ticket refinement, deploy planning, and retrospectives, fostering a collaborative and efficient development environment.",
+      "Selected as a 1-on-1 mentor for onboarding new employees and interns, providing guidance and support to facilitate their integration into the company culture and development processes."
+    ],
+    "technologies": [
+      "React",
+      "Redux Toolkit",
+      "TypeScript",
+      "Webpack",
+      "Babel",
+      "Sass"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Front-End Software Engineer",
+    "company": "Loyal Health",
+    "location": "Atlanta, GA",
+    "period": "2021 - 2024",
+    "type": "work",
+    "description": [
+      "Contributed to the development and maintenance of company's front-end applications.",
+      "Collaborated with cross-functional teams to deliver high-quality features."
+    ],
+    "technologies": ["React", "Redux", "TypeScript", "Sass"]
+  },
+  {
+    "id": "4",
+    "title": "Front-End Engineer",
+    "company": "Red Ventures",
+    "location": "Charlotte, NC",
+    "period": "2020 - 2021",
+    "type": "work",
+    "isPromotion": true,
+    "description": [
+      "Revitalized multiple e-commerce websites, optimizing both paid search and SEO strategies to drive enhanced user engagement and conversion rates.",
+      "Directed teams of 3+ members in the successful reconstruction of numerous e-commerce platforms, consistently achieving project milestones and delivery targets.",
+      "Provided mentorship to new team members, facilitating their integration into company workflows and processes, thereby fostering a culture of high performance and collaboration."
+    ],
+    "technologies": ["React", "JavaScript", "CSS", "SEO"]
+  },
+  {
+    "id": "5",
+    "title": "Associate Engineer",
+    "company": "Red Ventures",
+    "location": "Charlotte, NC",
+    "period": "2019 - 2020",
+    "type": "work",
+    "description": [
+      "Developed and maintained e-commerce websites with focus on user experience and performance."
+    ],
+    "technologies": ["JavaScript", "HTML", "CSS"]
+  },
+  {
+    "id": "6",
+    "title": "Front-End Engineer",
+    "company": "Lionsoft",
+    "location": "Austin, TX",
+    "period": "2018 - 2019",
+    "type": "work",
+    "description": [
+      "Crafted and deployed full-stack mobile applications utilizing React Native, from initial design (sketch) to deployment."
+    ],
+    "technologies": ["React Native", "JavaScript"]
+  },
+  {
+    "id": "7",
+    "title": "Teaching Assistant and Development Tutor",
+    "company": "Austin Coding Academy",
+    "location": "Austin, TX",
+    "period": "2018",
+    "type": "work",
+    "description": [
+      "Mentored students learning web development fundamentals and best practices."
+    ],
+    "technologies": ["JavaScript", "HTML", "CSS", "Node"]
+  }
+]
