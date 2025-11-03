@@ -6,11 +6,14 @@ export const EducationSection = () => {
   const education = educationData as EducationItem[];
 
   return (
-    <section className="relative w-full py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-900">
+    <section
+      id="my-education"
+      className="relative w-full py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-900"
+    >
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 dark:from-purple-400 dark:via-pink-400 dark:to-purple-400">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text !leading-[1.1] text-transparent bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 dark:from-purple-400 dark:via-pink-400 dark:to-purple-400">
             Education & Certifications
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -28,4 +31,3 @@ export const EducationSection = () => {
     </section>
   );
 };
-

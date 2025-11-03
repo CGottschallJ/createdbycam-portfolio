@@ -18,7 +18,7 @@ export const CareerCard = ({ item, index }: CareerCardProps) => {
     <div
       className={`w-full md:w-[calc(50%-2rem)] ${
         isRightAligned ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left'
-      } pl-24 md:pl-0`}
+      } pl-16 md:pl-0`}
     >
       <Card className="relative group hover:shadow-xl transition-all duration-300 border-2 hover:border-purple-400 dark:hover:border-purple-600">
         {item.isPromotion && (
@@ -77,4 +77,3 @@ export const CareerCard = ({ item, index }: CareerCardProps) => {
     </div>
   );
 };
-
