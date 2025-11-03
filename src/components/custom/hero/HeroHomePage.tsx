@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Button } from '@/components/ui/button';
 
 export const HeroHomePage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -77,25 +78,47 @@ export const HeroHomePage = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}
         >
-          <button
+          <Button
             onClick={() => {
               document.getElementById('my-work')?.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start',
               });
             }}
+            size="lg"
             className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
           >
-            <span className="relative z-10">View My Work</span>
+            <span className="relative z-10">View Competency Examples</span>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </button>
+          </Button>
 
-          <button className="group px-8 py-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-gray-900 dark:text-white font-semibold rounded-full border-2 border-gray-300 dark:border-gray-600 hover:border-purple-500 dark:hover:border-purple-400 transition-all duration-300 hover:scale-105 shadow-lg">
-            Get In Touch
-            <span className="inline-block ml-2 transition-transform duration-300 group-hover:translate-x-1">
-              →
-            </span>
-          </button>
+          <Button
+            onClick={() => {
+              document.getElementById('my-journey')?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              });
+            }}
+            size="lg"
+            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
+          >
+            <span className="relative z-10">View My Journey</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </Button>
+
+          <Button
+            onClick={() => {
+              document.getElementById('my-education')?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              });
+            }}
+            size="lg"
+            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
+          >
+            <span className="relative z-10">View My Education</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </Button>
         </div>
       </div>
 
